@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+
+    color: black;
+}
+
+body{
+    background-color: black;
+}
+.popup{
+ 
+   
+    background-color: rgb(251, 253, 254);
+   
+    padding: 0px;
+    margin: 0px;
+    opacity: 1;
+    width: 100%;
+    max-width: 975px;
+    min-width: 600px;
+    position: relative;
+    margin-left: 18%;
+    margin-top: 4%;
+}
+.container{
+    
+    padding: 20px ;
+    display: flex;
+    flex-flow: column wrap;
+   
+  
+    justify-content: space-evenly;
+    border-radius: 10px;
+
+}
+.box{
+  
+
+}
+.box1{
+    display: flex;
+    flex-grow: row wrap;
+    padding: 5px;
+    
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 2px;
+    
+}
+
+.box1>i{
+    margin-left: 10px;
+    padding: 5px;
+    color:  rgb(191, 188, 186);
+    
+}
+.box1>p{
+    margin-left: 10px;
+    padding: 5px;
+    color: rgb(192, 178, 171); 
+
+}
+.box2{
+    font-size: 18px;
+    
+    text-transform: none;
+   
+    cursor: default;
+    
+}
+.bpx2>p{
+  
+  text-align: center; 
+  font-size: large;
+   
+}
+.box3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+} 
+.box3>p{
+    color: rgb(102, 102, 102);
+    font-size: 14px; 
+} 
+.box4{
+    font-size: 18px;
+    
+    text-transform: none;
+   
+    cursor: default;
+}
+.box4>p{
+    text-align: center;
+    font-size: 15px;
+   
+    text-transform: none;
+    color: rgb(51, 51, 51);
+   
+   
+}
+.box5{
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: self-start;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+}
+
+
+li{
+   color: rgb(153, 153, 153); 
+}
+ul :hover{
+    
+       color: rgb(84, 84, 84) ;
+     
+}
+
+.box6{
+    padding: 5px;
+}
+
+.box6>p{
+    font-size: 16px;
+    
+    color: rgb(220, 53, 88);
+    cursor: pointer;
+}
+
